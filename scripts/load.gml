@@ -1,0 +1,53 @@
+// load.gml
+// https://rivalslib.com/workshop_guide/programming/reference/scripts/init_and_attack_scripts.html#initializing-graphics
+// Each `sprite_change_offset` call sets a sprites x and y origin.
+// The easiest way to get the origin is the x y coordinate given by the sprite 
+// editor, where x is the character's center, and y is their foot level.
+
+sprite_change_offset("idle", 72, 98)
+sprite_change_offset("hurt", 76, 92)
+sprite_change_offset("crouch", 72, 98)
+sprite_change_offset("walk", 68, 98)
+sprite_change_offset("walkturn", 68, 98)
+sprite_change_offset("dash", 59, 98)
+sprite_change_offset("dashstart", 72, 98)
+sprite_change_offset("dashstop", 80, 98)
+sprite_change_offset("dashturn", 70, 98)
+
+sprite_change_offset("jumpstart", 72, 98)
+sprite_change_offset("jump", 85, 91)
+sprite_change_offset("doublejump", 77, 98)
+sprite_change_offset("walljump", 86, 88)
+sprite_change_offset("pratfall", 79, 95)
+sprite_change_offset("land", 76, 98)
+sprite_change_offset("landinglag", 76, 98)
+
+sprite_change_offset("parry", 72, 98)
+sprite_change_offset("roll_forward", 72, 98)
+sprite_change_offset("roll_backward", 72, 98)
+sprite_change_offset("airdodge", 61, 96)
+sprite_change_offset("waveland", 72, 98)
+sprite_change_offset("tech", 78, 98)
+
+sprite_change_offset("jab", 78, 98)
+sprite_change_offset("dattack", 64, 94)
+sprite_change_offset("ftilt", 64, 94)
+sprite_change_offset("dtilt", 72, 98)
+sprite_change_offset("utilt", 82, 146)
+sprite_change_offset("nair", 74, 92)
+sprite_change_offset("fair", 45, 122)
+sprite_change_offset("bair", 64, 94)
+sprite_change_offset("uair", 73, 96)
+sprite_change_offset("dair", 79, 84)
+sprite_change_offset("fstrong", 64, 94)
+sprite_change_offset("ustrong", 64, 158)
+sprite_change_offset("dstrong", 64, 94)
+sprite_change_offset("nspecial", 78, 98)
+sprite_change_offset("fspecial", 64, 94)
+sprite_change_offset("uspecial", 76, 98)
+sprite_change_offset("dspecial", 72, 98)
+sprite_change_offset("taunt", 64, 94)
+
+sprite_change_offset("plat", 64, 94)
+
+sprite_change_offset("nspecial_proj", 64, 94)
