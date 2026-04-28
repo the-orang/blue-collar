@@ -51,3 +51,4 @@ sprite_change_offset("taunt", 80, 126)
 sprite_change_offset("plat", 64, 94)
 
 sprite_change_offset("nspecial_proj", 64, 94)
+sprite_change_offset("dorito", 29, 24)

@@ -18,15 +18,16 @@ alt_name = []; //refresh name array in case other characters use the same system
 //there can be a total of 32 (0 - 31) alts normally
 alt_name[0] = "Default";
 alt_name[1] = "Creator";
-alt_name[2] = "<3";
-alt_name[3] = "Internet Antiquarian";
-alt_name[4] = "Bunnings";
-alt_name[5] = "Home Depot";
-alt_name[6] = "Masters";
-alt_name[7] = "White Space";
-alt_name[8] = "Dunmer";
-alt_name[9] = "Strobe";
-alt_name[10] = "Strobe (Dark)"
+alt_name[2] = "Internet Antiquarian";
+alt_name[3] = "Bunnings";
+alt_name[4] = "Home Depot";
+alt_name[5] = "Masters";
+alt_name[6] = "Menards";
+alt_name[7] = "Dominos Pizza";
+alt_name[8] = "White Space";
+alt_name[9] = "Dunmer";
+alt_name[10] = "Strobe";
+alt_name[11] = "Strobe (Dark)"
 
 
 alt_cur = 0; //checks current alt

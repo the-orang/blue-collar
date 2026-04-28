@@ -12,83 +12,68 @@ set_color_profile_slot_range( 1, 1, 1, 30 );
 set_color_profile_slot( 0, 2, 0, 226, 255 );
 set_color_profile_slot_range( 2, 1, 1, 1 );
 
-// sign
-set_color_profile_slot( 0, 3, 254, 9, 5 );
-set_color_profile_slot_range( 3, 14, 5, 26 );
-
 
 // ALTERNATE COLORS
 set_num_palettes( 12 );
 
 // creator
 set_color_profile_slot( 1, 0, 255, 136, 46 ); //body
-set_color_profile_slot( 1, 1, 194, 96, 21 ); //helmet
+set_color_profile_slot( 1, 1, 61, 196, 187 ); //helmet
 set_color_profile_slot( 1, 2, 255, 85, 0 ); //shine
-set_color_profile_slot( 1, 3, 254, 9, 5 ); //sign
 
 // abe
 set_color_profile_slot( 2, 0, 153, 153, 153 ); //body
 set_color_profile_slot( 2, 1, 241, 173, 157 ); //helmet
 set_color_profile_slot( 2, 2, 241, 173, 157 ); //shine
-set_color_profile_slot( 2, 3, 245, 196, 0 ); //sign
 
 // bunnings
 set_color_profile_slot( 3, 0, 13, 100, 87 ); //body
 set_color_profile_slot( 3, 1, 218, 40, 28 ); //helmet
 set_color_profile_slot( 3, 2, 237, 237, 237 ); //shine
-set_color_profile_slot( 3, 3, 218, 40, 28 ); //sign
 
 // home depot
 set_color_profile_slot( 4, 0, 252, 240, 232 ); //body
 set_color_profile_slot( 4, 1, 249, 99, 2 ); //helmet
 set_color_profile_slot( 4, 2, 249, 99, 2 ); //shine
-set_color_profile_slot( 4, 3, 255, 85, 0 ); //sign
 
 // masters
 set_color_profile_slot( 5, 0, 0, 95, 181 ); //body
 set_color_profile_slot( 5, 1, 0, 193, 244 ); //helmet
 set_color_profile_slot( 5, 2, 199, 234, 253 ); //shine
-set_color_profile_slot( 5, 3, 0, 193, 244 ); //sign
 
 // menards
-set_color_profile_slot( 6, 0, 55, 161, 43 ); //body
-set_color_profile_slot( 6, 1, 23, 194, 6 ); //helmet
+set_color_profile_slot( 6, 0, 15, 176, 0 ); //body
+set_color_profile_slot( 6, 1, 68, 255, 0 ); //helmet
 set_color_profile_slot( 6, 2, 255, 117, 41 ); //shine
-set_color_profile_slot( 6, 3, 218, 40, 28 ); //sign
 
 // dominos
-set_color_profile_slot( 7, 0, 57, 108, 204 ); //body
-set_color_profile_slot( 7, 1, 217, 21, 0 ); //helmet
+set_color_profile_slot( 7, 0, 0, 94, 255 ); //body
+set_color_profile_slot( 7, 1, 230, 22, 0 ); //helmet
 set_color_profile_slot( 7, 2, 255, 255, 255 ); //shine
-set_color_profile_slot( 7, 3, 222, 39, 29 ); //sign
 
 // white space
 set_color_profile_slot( 8, 0, 255, 255, 255 ); //body
 set_color_profile_slot( 8, 1, 255, 255, 255 ); //helmet
 set_color_profile_slot( 8, 2, 0, 0, 0 ); //shine
-set_color_profile_slot( 8, 3, 133, 133, 133 ); //sign
 
 // dunmer
 set_color_profile_slot( 9, 0, 58, 74, 90 ); //body
 set_color_profile_slot( 9, 1, 153, 15, 0 ); //helmet
 set_color_profile_slot( 9, 2, 153, 15, 0 ); //shine
-set_color_profile_slot( 9, 3, 254, 9, 5 ); //sign
 
 // rainbow
 set_color_profile_slot( 10, 0, 255, 255, 255 ); //body
 set_color_profile_slot( 10, 1, 255, 0, 0 ); //helmet
 set_color_profile_slot( 10, 2, 255, 0, 0 ); //shine
-set_color_profile_slot( 10, 3, 255, 0, 0 ); //sign
 
 // rainbow dark
 set_color_profile_slot( 11, 0, 82, 82, 82 ); //body
 set_color_profile_slot( 11, 1, 255, 0, 0 ); //helmet
 set_color_profile_slot( 11, 2, 255, 0, 0 ); //shine
-set_color_profile_slot( 11, 3, 255, 0, 0 ); //sign
 
 
 /* This is a comment used by that one RoA colors.gml generator tool to store palette data. You can safely keep it in your colors.gml if you plan to re-use the tool later, or safely remove it if you don't.
 === BEGIN JSON PALETTE ===
-{"formatversion":1,"data":[{"name":"body","colors":[{"r":99,"g":155,"b":255,"main":true},{"r":93,"g":142,"b":229}]},{"name":"helmet","colors":[{"r":251,"g":242,"b":54,"main":true},{"r":176,"g":170,"b":38}]},{"name":"shine","colors":[{"r":0,"g":226,"b":255,"main":true}]},{"name":"sign","colors":[{"r":254,"g":9,"b":5,"main":true},{"r":203,"g":5,"b":1},{"r":191,"g":54,"b":12}]}]}
+{"formatversion":1,"data":[{"name":"body","colors":[{"r":99,"g":155,"b":255,"main":true},{"r":93,"g":142,"b":229}]},{"name":"helmet","colors":[{"r":251,"g":242,"b":54,"main":true},{"r":176,"g":170,"b":38}]},{"name":"shine","colors":[{"r":0,"g":226,"b":255,"main":true}]}]}
 === END JSON PALETTE ===
 */
