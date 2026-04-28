@@ -10,7 +10,7 @@
 
 char_height = 52 // 36 – 74. Purely aesthetic. Used for centering things on the character, placing the overhead HUD, etc
 
-knockback_adj = 1.0 //.9 – 1.2. The multiplier to knockback dealt to you: 1 = default value higher values = lighter character lower values = heavier character
+knockback_adj = 1.1 //.9 – 1.2. The multiplier to knockback dealt to you: 1 = default value higher values = lighter character lower values = heavier character
 
 // MOVEMENT
 
@@ -139,6 +139,9 @@ jump_sound = asset_get("sfx_jumpground")
 djump_sound = asset_get("sfx_jumpair")
 air_dodge_sound = asset_get("sfx_quick_dodge")
 
+set_victory_bg(sprite_get("winscreen")); // sprites\winscreen.png - name doesn't matter, the size has to be 480 x 270 pixels big, usually has this puple filter on it
+set_victory_theme(sound_get("mus_victory")); // sounds\mus_victory.ogg - leave some silence in the file after the victory theme finishes
+
 // VFX
 // my_vfx = hit_fx_create(my_spr, duration)
 
@@ -156,3 +159,7 @@ air_dodge_sound = asset_get("sfx_quick_dodge")
 // Visual offsets for when you're in Ranno's bubble
 bubble_x = 0
 bubble_y = 8
+
+//rainbow
+hue_offset=0;
+hue_speed=1; //change this to change the speed of the hueshift
